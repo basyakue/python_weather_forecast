@@ -48,4 +48,4 @@ async def on_message(message):
       else:
         await client.send_message(message.channel, "そこの天気はわかりません...")
 
-client.run("ここにトークン")
+client.run("NTk4NDc2ODIwOTI4NTI4NDA1.XYBjTw.rAV5SbucaW-wiCOdetukCQ8aWWo")
