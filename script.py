@@ -43,7 +43,7 @@ async def on_message(message):
           msg += f['dateLabel'] + "が" + f['telop'] + "\n"
         msg += "です。"
 
-        await message.channel.send(message.author.mention + msg)
+        await message.channel.send(msg)
 
       else:
         await message.channnel.send("そこの天気はわかりません...")
